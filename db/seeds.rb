@@ -1,24 +1,16 @@
 ##################
 #WITH DATA STRUCTURE
 ##################
-# authors = [
-#   {
-#     name: "Margot Lee Shetterly",
-#     bio_link: "https://en.wikipedia.org/wiki/Roxane_Gay"
-#   },
-#   {
-#     name: "Sandi Metz",
-#     bio_link: "https://en.wikipedia.org/wiki/Sandi_Metz"
-#   },
-#   {
-#     name: "Octavia E. Butler",
-#     bio_link: "https://en.wikipedia.org/wiki/Octavia_E._Butler"
-#   }
-# ]
-#
-# authors.each do |author|
-#   Author.create(author)
-# end
+authors = [
+  {
+    name: "Margot Lee Shetterly",
+    bio_link: "https://en.wikipedia.org/wiki/Roxane_Gay"
+  }
+]
+
+authors.each do |author|
+  Author.create(author)
+end
 
 
   #note: rails db:reset will clear your data and seeds
